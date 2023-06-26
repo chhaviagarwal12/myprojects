@@ -1,0 +1,144 @@
+
+/*======styling of burger menu=======*/
+.bm-burger-button {
+    position: relative;
+    margin-top: 10px;
+    }
+  .bm-burger-button-hover {
+    background: palevioletred;
+  }
+  .bm-cross-button {
+    height: 24px;
+    width: 24px;
+    margin-top: 30px;
+    position: relative;
+  }
+  .bm-menu-wrap {
+    position: fixed;
+    height: 100%;
+  }
+  .bm-menu {
+
+    background: #373a47;
+    padding: 2em  0; 
+    font-size: 1.15em;
+    margin-top: 25px;
+    
+  }
+  .bm-item-list {
+    color: #b8b7ad;
+    padding: 0.8em;
+  }
+  
+  /* Individual item */
+  .bm-item {
+    display: inline-block;
+
+    /* Our sidebar item styling */
+    text-decoration: none;
+    margin-bottom: 10px;
+    color: #d1d1d1;
+    transition: color 0.2s;
+  }
+  
+  /* Styling of overlay */
+  .bm-overlay {
+    background:none !important;
+
+  }
+  .bm-item:hover {
+    color: pink;
+  }
+  .bm-burger-bars {
+    background: #373a47;
+  }
+  .bm-cross {
+    background: #bdc3c7;
+  }
+  
+  .row{
+    display: flex;
+  }
+  #header-grid{
+    padding-right: 0px;
+  }
+  .ui.card > .content{
+  padding: 0px;
+}
+ .ui.secondary.menu a.item:hover {
+  background: pink;
+  color: black;
+}
+/*===styling of products component ui cards=========*/
+#products-card{
+  width: 85%; 
+  height: 450px;
+ margin-top: 20px;
+ 
+}
+#products-image {
+ display: contents;
+}
+
+#categories-image{
+ 
+  height: 384px;
+  width: 290px;
+}
+
+#products-header{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-size: large;
+}
+
+.main-header{
+  text-align: center;
+}
+/* styling of single category ui cards */
+#category-card{
+  width: 30%; 
+  height: 500px;
+ margin: 20px 100px 50px 100px;
+ 
+ 
+}
+#category-image {
+ display: contents;
+}
+
+#product-image{
+  justify-content: center;
+  height: 300px;
+  /* width: 100%; */
+}
+
+#category-header{
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-size: large;
+}
+.extra {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  font-size: large;
+}
+
+td {
+  border: none;
+}
+
+#wishlisted-img{
+  justify-content: center;
+  height: 300px;
+}
+#wishlisted-btn{
+  justify-content: center;
+ 
+}
